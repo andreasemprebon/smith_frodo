@@ -1,0 +1,414 @@
+<instance>
+  <presentation format="XCSP 2.1_FRODO" maxConstraintArity="18" maximize="false" name="SMIThSampleProblem"/>
+  <agents nbAgents="3">
+    <agent name="WashingMachine"/>
+    <agent name="Boiler"/>
+    <agent name="SolarPanel"/>
+  </agents>
+  <domains nbDomains="54">
+    <domain name="DOMAIN_p_wm_0" nbValues="2">0 10</domain>
+    <domain name="DOMAIN_p_wm_1" nbValues="3">0 10 15</domain>
+    <domain name="DOMAIN_p_wm_2" nbValues="4">0 10 20 15</domain>
+    <domain name="DOMAIN_p_wm_3" nbValues="5">0 8 10 20 15</domain>
+    <domain name="DOMAIN_p_wm_4" nbValues="6">0 5 8 10 15 20</domain>
+    <domain name="DOMAIN_p_wm_5" nbValues="6">0 5 8 10 15 20</domain>
+    <domain name="DOMAIN_p_wm_6" nbValues="6">0 5 8 10 15 20</domain>
+    <domain name="DOMAIN_p_wm_7" nbValues="6">0 5 8 10 15 20</domain>
+    <domain name="DOMAIN_p_wm_8" nbValues="6">0 5 8 10 15 20</domain>
+    <domain name="DOMAIN_p_wm_9" nbValues="6">0 5 8 10 15 20</domain>
+    <domain name="DOMAIN_p_wm_10" nbValues="6">0 5 8 10 15 20</domain>
+    <domain name="DOMAIN_p_wm_11" nbValues="6">0 5 8 10 15 20</domain>
+    <domain name="DOMAIN_p_wm_12" nbValues="6">0 5 8 10 15 20</domain>
+    <domain name="DOMAIN_p_wm_13" nbValues="6">0 5 8 10 15 20</domain>
+    <domain name="DOMAIN_p_wm_14" nbValues="5">0 8 20 5 15</domain>
+    <domain name="DOMAIN_p_wm_15" nbValues="4">0 8 20 5</domain>
+    <domain name="DOMAIN_p_wm_16" nbValues="3">0 8 5</domain>
+    <domain name="DOMAIN_p_wm_17" nbValues="2">0 5</domain>
+    <domain name="DOMAIN_p_boiler_0" nbValues="2">0 10</domain>
+    <domain name="DOMAIN_p_boiler_1" nbValues="2">0 10</domain>
+    <domain name="DOMAIN_p_boiler_2" nbValues="2">0 10</domain>
+    <domain name="DOMAIN_p_boiler_3" nbValues="2">0 10</domain>
+    <domain name="DOMAIN_p_boiler_4" nbValues="2">0 10</domain>
+    <domain name="DOMAIN_p_boiler_5" nbValues="2">0 10</domain>
+    <domain name="DOMAIN_p_boiler_6" nbValues="2">0 10</domain>
+    <domain name="DOMAIN_p_boiler_7" nbValues="2">0 10</domain>
+    <domain name="DOMAIN_p_boiler_8" nbValues="2">0 10</domain>
+    <domain name="DOMAIN_p_boiler_9" nbValues="2">0 10</domain>
+    <domain name="DOMAIN_p_boiler_10" nbValues="2">0 10</domain>
+    <domain name="DOMAIN_p_boiler_11" nbValues="2">0 10</domain>
+    <domain name="DOMAIN_p_boiler_12" nbValues="2">0 10</domain>
+    <domain name="DOMAIN_p_boiler_13" nbValues="2">0 10</domain>
+    <domain name="DOMAIN_p_boiler_14" nbValues="2">0 10</domain>
+    <domain name="DOMAIN_p_boiler_15" nbValues="2">0 10</domain>
+    <domain name="DOMAIN_p_boiler_16" nbValues="2">0 10</domain>
+    <domain name="DOMAIN_p_boiler_17" nbValues="2">0 10</domain>
+    <domain name="DOMAIN_p_sp_0" nbValues="1">0</domain>
+    <domain name="DOMAIN_p_sp_1" nbValues="1">0</domain>
+    <domain name="DOMAIN_p_sp_2" nbValues="1">0</domain>
+    <domain name="DOMAIN_p_sp_3" nbValues="5">0 1 2 3 4</domain>
+    <domain name="DOMAIN_p_sp_4" nbValues="6">0 1 2 3 4 5</domain>
+    <domain name="DOMAIN_p_sp_5" nbValues="11">0 1 2 3 4 5 6 7 8 9 10</domain>
+    <domain name="DOMAIN_p_sp_6" nbValues="20">0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19</domain>
+    <domain name="DOMAIN_p_sp_7" nbValues="1">0</domain>
+    <domain name="DOMAIN_p_sp_8" nbValues="1">0</domain>
+    <domain name="DOMAIN_p_sp_9" nbValues="6">0 1 2 3 4 5</domain>
+    <domain name="DOMAIN_p_sp_10" nbValues="1">0</domain>
+    <domain name="DOMAIN_p_sp_11" nbValues="1">0</domain>
+    <domain name="DOMAIN_p_sp_12" nbValues="1">0</domain>
+    <domain name="DOMAIN_p_sp_13" nbValues="1">0</domain>
+    <domain name="DOMAIN_p_sp_14" nbValues="1">0</domain>
+    <domain name="DOMAIN_p_sp_15" nbValues="1">0</domain>
+    <domain name="DOMAIN_p_sp_16" nbValues="1">0</domain>
+    <domain name="DOMAIN_p_sp_17" nbValues="1">0</domain>
+  </domains>
+  <variables nbVariables="54">
+    <variable agent="WashingMachine" domain="DOMAIN_p_wm_0" name="p_wm_0"/>
+    <variable agent="WashingMachine" domain="DOMAIN_p_wm_1" name="p_wm_1"/>
+    <variable agent="WashingMachine" domain="DOMAIN_p_wm_2" name="p_wm_2"/>
+    <variable agent="WashingMachine" domain="DOMAIN_p_wm_3" name="p_wm_3"/>
+    <variable agent="WashingMachine" domain="DOMAIN_p_wm_4" name="p_wm_4"/>
+    <variable agent="WashingMachine" domain="DOMAIN_p_wm_5" name="p_wm_5"/>
+    <variable agent="WashingMachine" domain="DOMAIN_p_wm_6" name="p_wm_6"/>
+    <variable agent="WashingMachine" domain="DOMAIN_p_wm_7" name="p_wm_7"/>
+    <variable agent="WashingMachine" domain="DOMAIN_p_wm_8" name="p_wm_8"/>
+    <variable agent="WashingMachine" domain="DOMAIN_p_wm_9" name="p_wm_9"/>
+    <variable agent="WashingMachine" domain="DOMAIN_p_wm_10" name="p_wm_10"/>
+    <variable agent="WashingMachine" domain="DOMAIN_p_wm_11" name="p_wm_11"/>
+    <variable agent="WashingMachine" domain="DOMAIN_p_wm_12" name="p_wm_12"/>
+    <variable agent="WashingMachine" domain="DOMAIN_p_wm_13" name="p_wm_13"/>
+    <variable agent="WashingMachine" domain="DOMAIN_p_wm_14" name="p_wm_14"/>
+    <variable agent="WashingMachine" domain="DOMAIN_p_wm_15" name="p_wm_15"/>
+    <variable agent="WashingMachine" domain="DOMAIN_p_wm_16" name="p_wm_16"/>
+    <variable agent="WashingMachine" domain="DOMAIN_p_wm_17" name="p_wm_17"/>
+    <variable agent="Boiler" domain="DOMAIN_p_boiler_0" name="p_boiler_0"/>
+    <variable agent="Boiler" domain="DOMAIN_p_boiler_1" name="p_boiler_1"/>
+    <variable agent="Boiler" domain="DOMAIN_p_boiler_2" name="p_boiler_2"/>
+    <variable agent="Boiler" domain="DOMAIN_p_boiler_3" name="p_boiler_3"/>
+    <variable agent="Boiler" domain="DOMAIN_p_boiler_4" name="p_boiler_4"/>
+    <variable agent="Boiler" domain="DOMAIN_p_boiler_5" name="p_boiler_5"/>
+    <variable agent="Boiler" domain="DOMAIN_p_boiler_6" name="p_boiler_6"/>
+    <variable agent="Boiler" domain="DOMAIN_p_boiler_7" name="p_boiler_7"/>
+    <variable agent="Boiler" domain="DOMAIN_p_boiler_8" name="p_boiler_8"/>
+    <variable agent="Boiler" domain="DOMAIN_p_boiler_9" name="p_boiler_9"/>
+    <variable agent="Boiler" domain="DOMAIN_p_boiler_10" name="p_boiler_10"/>
+    <variable agent="Boiler" domain="DOMAIN_p_boiler_11" name="p_boiler_11"/>
+    <variable agent="Boiler" domain="DOMAIN_p_boiler_12" name="p_boiler_12"/>
+    <variable agent="Boiler" domain="DOMAIN_p_boiler_13" name="p_boiler_13"/>
+    <variable agent="Boiler" domain="DOMAIN_p_boiler_14" name="p_boiler_14"/>
+    <variable agent="Boiler" domain="DOMAIN_p_boiler_15" name="p_boiler_15"/>
+    <variable agent="Boiler" domain="DOMAIN_p_boiler_16" name="p_boiler_16"/>
+    <variable agent="Boiler" domain="DOMAIN_p_boiler_17" name="p_boiler_17"/>
+    <variable agent="SolarPanel" domain="DOMAIN_p_sp_0" name="p_sp_0"/>
+    <variable agent="SolarPanel" domain="DOMAIN_p_sp_1" name="p_sp_1"/>
+    <variable agent="SolarPanel" domain="DOMAIN_p_sp_2" name="p_sp_2"/>
+    <variable agent="SolarPanel" domain="DOMAIN_p_sp_3" name="p_sp_3"/>
+    <variable agent="SolarPanel" domain="DOMAIN_p_sp_4" name="p_sp_4"/>
+    <variable agent="SolarPanel" domain="DOMAIN_p_sp_5" name="p_sp_5"/>
+    <variable agent="SolarPanel" domain="DOMAIN_p_sp_6" name="p_sp_6"/>
+    <variable agent="SolarPanel" domain="DOMAIN_p_sp_7" name="p_sp_7"/>
+    <variable agent="SolarPanel" domain="DOMAIN_p_sp_8" name="p_sp_8"/>
+    <variable agent="SolarPanel" domain="DOMAIN_p_sp_9" name="p_sp_9"/>
+    <variable agent="SolarPanel" domain="DOMAIN_p_sp_10" name="p_sp_10"/>
+    <variable agent="SolarPanel" domain="DOMAIN_p_sp_11" name="p_sp_11"/>
+    <variable agent="SolarPanel" domain="DOMAIN_p_sp_12" name="p_sp_12"/>
+    <variable agent="SolarPanel" domain="DOMAIN_p_sp_13" name="p_sp_13"/>
+    <variable agent="SolarPanel" domain="DOMAIN_p_sp_14" name="p_sp_14"/>
+    <variable agent="SolarPanel" domain="DOMAIN_p_sp_15" name="p_sp_15"/>
+    <variable agent="SolarPanel" domain="DOMAIN_p_sp_16" name="p_sp_16"/>
+    <variable agent="SolarPanel" domain="DOMAIN_p_sp_17" name="p_sp_17"/>
+  </variables>
+  <predicates nbPredicates="2">
+    <predicate name="continue_cycle_wm">
+      <parameters>X0 X1 X2 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X13 X14 X15 X16 X17</parameters>
+      <expression>
+        <functional>or( or( or( or( or( or( or( or( or( or( or( or( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( eq(X17, 0), eq(X16, 5)), eq(X15, 8)), eq(X14, 20)), eq(X13, 15)), eq(X12, 10)), eq(X11, 0)), eq(X10, 0)), eq(X9, 0)), eq(X8, 0)), eq(X7, 0)), eq(X6, 0)), eq(X5, 0)), eq(X4, 0)), eq(X3, 0)), eq(X2, 0)), eq(X1, 0)), eq(X0, 0)), and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( eq(X17, 0), eq(X16, 0)), eq(X15, 5)), eq(X14, 8)), eq(X13, 20)), eq(X12, 15)), eq(X11, 10)), eq(X10, 0)), eq(X9, 0)), eq(X8, 0)), eq(X7, 0)), eq(X6, 0)), eq(X5, 0)), eq(X4, 0)), eq(X3, 0)), eq(X2, 0)), eq(X1, 0)), eq(X0, 0))), and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( eq(X17, 0), eq(X16, 0)), eq(X15, 0)), eq(X14, 5)), eq(X13, 8)), eq(X12, 20)), eq(X11, 15)), eq(X10, 10)), eq(X9, 0)), eq(X8, 0)), eq(X7, 0)), eq(X6, 0)), eq(X5, 0)), eq(X4, 0)), eq(X3, 0)), eq(X2, 0)), eq(X1, 0)), eq(X0, 0))), and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( eq(X17, 0), eq(X16, 0)), eq(X15, 0)), eq(X14, 0)), eq(X13, 5)), eq(X12, 8)), eq(X11, 20)), eq(X10, 15)), eq(X9, 10)), eq(X8, 0)), eq(X7, 0)), eq(X6, 0)), eq(X5, 0)), eq(X4, 0)), eq(X3, 0)), eq(X2, 0)), eq(X1, 0)), eq(X0, 0))), and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( eq(X17, 0), eq(X16, 0)), eq(X15, 0)), eq(X14, 0)), eq(X13, 0)), eq(X12, 5)), eq(X11, 8)), eq(X10, 20)), eq(X9, 15)), eq(X8, 10)), eq(X7, 0)), eq(X6, 0)), eq(X5, 0)), eq(X4, 0)), eq(X3, 0)), eq(X2, 0)), eq(X1, 0)), eq(X0, 0))), and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( eq(X17, 0), eq(X16, 0)), eq(X15, 0)), eq(X14, 0)), eq(X13, 0)), eq(X12, 0)), eq(X11, 5)), eq(X10, 8)), eq(X9, 20)), eq(X8, 15)), eq(X7, 10)), eq(X6, 0)), eq(X5, 0)), eq(X4, 0)), eq(X3, 0)), eq(X2, 0)), eq(X1, 0)), eq(X0, 0))), and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( eq(X17, 0), eq(X16, 0)), eq(X15, 0)), eq(X14, 0)), eq(X13, 0)), eq(X12, 0)), eq(X11, 0)), eq(X10, 5)), eq(X9, 8)), eq(X8, 20)), eq(X7, 15)), eq(X6, 10)), eq(X5, 0)), eq(X4, 0)), eq(X3, 0)), eq(X2, 0)), eq(X1, 0)), eq(X0, 0))), and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( eq(X17, 0), eq(X16, 0)), eq(X15, 0)), eq(X14, 0)), eq(X13, 0)), eq(X12, 0)), eq(X11, 0)), eq(X10, 0)), eq(X9, 5)), eq(X8, 8)), eq(X7, 20)), eq(X6, 15)), eq(X5, 10)), eq(X4, 0)), eq(X3, 0)), eq(X2, 0)), eq(X1, 0)), eq(X0, 0))), and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( eq(X17, 0), eq(X16, 0)), eq(X15, 0)), eq(X14, 0)), eq(X13, 0)), eq(X12, 0)), eq(X11, 0)), eq(X10, 0)), eq(X9, 0)), eq(X8, 5)), eq(X7, 8)), eq(X6, 20)), eq(X5, 15)), eq(X4, 10)), eq(X3, 0)), eq(X2, 0)), eq(X1, 0)), eq(X0, 0))), and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( eq(X17, 0), eq(X16, 0)), eq(X15, 0)), eq(X14, 0)), eq(X13, 0)), eq(X12, 0)), eq(X11, 0)), eq(X10, 0)), eq(X9, 0)), eq(X8, 0)), eq(X7, 5)), eq(X6, 8)), eq(X5, 20)), eq(X4, 15)), eq(X3, 10)), eq(X2, 0)), eq(X1, 0)), eq(X0, 0))), and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( eq(X17, 0), eq(X16, 0)), eq(X15, 0)), eq(X14, 0)), eq(X13, 0)), eq(X12, 0)), eq(X11, 0)), eq(X10, 0)), eq(X9, 0)), eq(X8, 0)), eq(X7, 0)), eq(X6, 5)), eq(X5, 8)), eq(X4, 20)), eq(X3, 15)), eq(X2, 10)), eq(X1, 0)), eq(X0, 0))), and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( eq(X17, 0), eq(X16, 0)), eq(X15, 0)), eq(X14, 0)), eq(X13, 0)), eq(X12, 0)), eq(X11, 0)), eq(X10, 0)), eq(X9, 0)), eq(X8, 0)), eq(X7, 0)), eq(X6, 0)), eq(X5, 5)), eq(X4, 8)), eq(X3, 20)), eq(X2, 15)), eq(X1, 10)), eq(X0, 0))), and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( eq(X17, 0), eq(X16, 0)), eq(X15, 0)), eq(X14, 0)), eq(X13, 0)), eq(X12, 0)), eq(X11, 0)), eq(X10, 0)), eq(X9, 0)), eq(X8, 0)), eq(X7, 0)), eq(X6, 0)), eq(X5, 0)), eq(X4, 5)), eq(X3, 8)), eq(X2, 20)), eq(X1, 15)), eq(X0, 10)))</functional>
+      </expression>
+    </predicate>
+    <predicate name="continue_cycle_boiler">
+      <parameters>X0 X1 X2 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X13 X14 X15 X16 X17</parameters>
+      <expression>
+        <functional>or( or( or( or( or( or( or( or( or( or( or( or( or( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( eq(X17, 0), eq(X16, 10)), eq(X15, 10)), eq(X14, 10)), eq(X13, 10)), eq(X12, 0)), eq(X11, 0)), eq(X10, 0)), eq(X9, 0)), eq(X8, 0)), eq(X7, 0)), eq(X6, 0)), eq(X5, 0)), eq(X4, 0)), eq(X3, 0)), eq(X2, 0)), eq(X1, 0)), eq(X0, 0)), and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( eq(X17, 0), eq(X16, 0)), eq(X15, 10)), eq(X14, 10)), eq(X13, 10)), eq(X12, 10)), eq(X11, 0)), eq(X10, 0)), eq(X9, 0)), eq(X8, 0)), eq(X7, 0)), eq(X6, 0)), eq(X5, 0)), eq(X4, 0)), eq(X3, 0)), eq(X2, 0)), eq(X1, 0)), eq(X0, 0))), and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( eq(X17, 0), eq(X16, 0)), eq(X15, 0)), eq(X14, 10)), eq(X13, 10)), eq(X12, 10)), eq(X11, 10)), eq(X10, 0)), eq(X9, 0)), eq(X8, 0)), eq(X7, 0)), eq(X6, 0)), eq(X5, 0)), eq(X4, 0)), eq(X3, 0)), eq(X2, 0)), eq(X1, 0)), eq(X0, 0))), and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( eq(X17, 0), eq(X16, 0)), eq(X15, 0)), eq(X14, 0)), eq(X13, 10)), eq(X12, 10)), eq(X11, 10)), eq(X10, 10)), eq(X9, 0)), eq(X8, 0)), eq(X7, 0)), eq(X6, 0)), eq(X5, 0)), eq(X4, 0)), eq(X3, 0)), eq(X2, 0)), eq(X1, 0)), eq(X0, 0))), and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( eq(X17, 0), eq(X16, 0)), eq(X15, 0)), eq(X14, 0)), eq(X13, 0)), eq(X12, 10)), eq(X11, 10)), eq(X10, 10)), eq(X9, 10)), eq(X8, 0)), eq(X7, 0)), eq(X6, 0)), eq(X5, 0)), eq(X4, 0)), eq(X3, 0)), eq(X2, 0)), eq(X1, 0)), eq(X0, 0))), and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( eq(X17, 0), eq(X16, 0)), eq(X15, 0)), eq(X14, 0)), eq(X13, 0)), eq(X12, 0)), eq(X11, 10)), eq(X10, 10)), eq(X9, 10)), eq(X8, 10)), eq(X7, 0)), eq(X6, 0)), eq(X5, 0)), eq(X4, 0)), eq(X3, 0)), eq(X2, 0)), eq(X1, 0)), eq(X0, 0))), and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( eq(X17, 0), eq(X16, 0)), eq(X15, 0)), eq(X14, 0)), eq(X13, 0)), eq(X12, 0)), eq(X11, 0)), eq(X10, 10)), eq(X9, 10)), eq(X8, 10)), eq(X7, 10)), eq(X6, 0)), eq(X5, 0)), eq(X4, 0)), eq(X3, 0)), eq(X2, 0)), eq(X1, 0)), eq(X0, 0))), and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( eq(X17, 0), eq(X16, 0)), eq(X15, 0)), eq(X14, 0)), eq(X13, 0)), eq(X12, 0)), eq(X11, 0)), eq(X10, 0)), eq(X9, 10)), eq(X8, 10)), eq(X7, 10)), eq(X6, 10)), eq(X5, 0)), eq(X4, 0)), eq(X3, 0)), eq(X2, 0)), eq(X1, 0)), eq(X0, 0))), and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( eq(X17, 0), eq(X16, 0)), eq(X15, 0)), eq(X14, 0)), eq(X13, 0)), eq(X12, 0)), eq(X11, 0)), eq(X10, 0)), eq(X9, 0)), eq(X8, 10)), eq(X7, 10)), eq(X6, 10)), eq(X5, 10)), eq(X4, 0)), eq(X3, 0)), eq(X2, 0)), eq(X1, 0)), eq(X0, 0))), and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( eq(X17, 0), eq(X16, 0)), eq(X15, 0)), eq(X14, 0)), eq(X13, 0)), eq(X12, 0)), eq(X11, 0)), eq(X10, 0)), eq(X9, 0)), eq(X8, 0)), eq(X7, 10)), eq(X6, 10)), eq(X5, 10)), eq(X4, 10)), eq(X3, 0)), eq(X2, 0)), eq(X1, 0)), eq(X0, 0))), and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( eq(X17, 0), eq(X16, 0)), eq(X15, 0)), eq(X14, 0)), eq(X13, 0)), eq(X12, 0)), eq(X11, 0)), eq(X10, 0)), eq(X9, 0)), eq(X8, 0)), eq(X7, 0)), eq(X6, 10)), eq(X5, 10)), eq(X4, 10)), eq(X3, 10)), eq(X2, 0)), eq(X1, 0)), eq(X0, 0))), and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( eq(X17, 0), eq(X16, 0)), eq(X15, 0)), eq(X14, 0)), eq(X13, 0)), eq(X12, 0)), eq(X11, 0)), eq(X10, 0)), eq(X9, 0)), eq(X8, 0)), eq(X7, 0)), eq(X6, 0)), eq(X5, 10)), eq(X4, 10)), eq(X3, 10)), eq(X2, 10)), eq(X1, 0)), eq(X0, 0))), and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( eq(X17, 0), eq(X16, 0)), eq(X15, 0)), eq(X14, 0)), eq(X13, 0)), eq(X12, 0)), eq(X11, 0)), eq(X10, 0)), eq(X9, 0)), eq(X8, 0)), eq(X7, 0)), eq(X6, 0)), eq(X5, 0)), eq(X4, 10)), eq(X3, 10)), eq(X2, 10)), eq(X1, 10)), eq(X0, 0))), and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( and( eq(X17, 0), eq(X16, 0)), eq(X15, 0)), eq(X14, 0)), eq(X13, 0)), eq(X12, 0)), eq(X11, 0)), eq(X10, 0)), eq(X9, 0)), eq(X8, 0)), eq(X7, 0)), eq(X6, 0)), eq(X5, 0)), eq(X4, 0)), eq(X3, 10)), eq(X2, 10)), eq(X1, 10)), eq(X0, 10)))</functional>
+      </expression>
+    </predicate>
+  </predicates>
+  <constraints nbConstraints="56">
+    <constraint arity="18" name="continue_cycle_wm" reference="continue_cycle_wm" scope="p_wm_0 p_wm_1 p_wm_2 p_wm_3 p_wm_4 p_wm_5 p_wm_6 p_wm_7 p_wm_8 p_wm_9 p_wm_10 p_wm_11 p_wm_12 p_wm_13 p_wm_14 p_wm_15 p_wm_16 p_wm_17">
+      <parameters>p_wm_0 p_wm_1 p_wm_2 p_wm_3 p_wm_4 p_wm_5 p_wm_6 p_wm_7 p_wm_8 p_wm_9 p_wm_10 p_wm_11 p_wm_12 p_wm_13 p_wm_14 p_wm_15 p_wm_16 p_wm_17</parameters>
+    </constraint>
+    <constraint arity="18" name="continue_cycle_boiler" reference="continue_cycle_boiler" scope="p_boiler_0 p_boiler_1 p_boiler_2 p_boiler_3 p_boiler_4 p_boiler_5 p_boiler_6 p_boiler_7 p_boiler_8 p_boiler_9 p_boiler_10 p_boiler_11 p_boiler_12 p_boiler_13 p_boiler_14 p_boiler_15 p_boiler_16 p_boiler_17">
+      <parameters>p_boiler_0 p_boiler_1 p_boiler_2 p_boiler_3 p_boiler_4 p_boiler_5 p_boiler_6 p_boiler_7 p_boiler_8 p_boiler_9 p_boiler_10 p_boiler_11 p_boiler_12 p_boiler_13 p_boiler_14 p_boiler_15 p_boiler_16 p_boiler_17</parameters>
+    </constraint>
+    <constraint arity="3" name="max_power_constraint_t_0" reference="global:weightedSum" scope="p_wm_0 p_boiler_0 p_sp_0">
+      <parameters>[ { 1 p_wm_0 } { 1 p_boiler_0 } { -1 p_sp_0 } ] <le/> 30</parameters>
+    </constraint>
+    <constraint arity="3" name="max_power_constraint_t_1" reference="global:weightedSum" scope="p_wm_1 p_boiler_1 p_sp_1">
+      <parameters>[ { 1 p_wm_1 } { 1 p_boiler_1 } { -1 p_sp_1 } ] <le/> 30</parameters>
+    </constraint>
+    <constraint arity="3" name="max_power_constraint_t_2" reference="global:weightedSum" scope="p_wm_2 p_boiler_2 p_sp_2">
+      <parameters>[ { 1 p_wm_2 } { 1 p_boiler_2 } { -1 p_sp_2 } ] <le/> 30</parameters>
+    </constraint>
+    <constraint arity="3" name="max_power_constraint_t_3" reference="global:weightedSum" scope="p_wm_3 p_boiler_3 p_sp_3">
+      <parameters>[ { 1 p_wm_3 } { 1 p_boiler_3 } { -1 p_sp_3 } ] <le/> 30</parameters>
+    </constraint>
+    <constraint arity="3" name="max_power_constraint_t_4" reference="global:weightedSum" scope="p_wm_4 p_boiler_4 p_sp_4">
+      <parameters>[ { 1 p_wm_4 } { 1 p_boiler_4 } { -1 p_sp_4 } ] <le/> 30</parameters>
+    </constraint>
+    <constraint arity="3" name="max_power_constraint_t_5" reference="global:weightedSum" scope="p_wm_5 p_boiler_5 p_sp_5">
+      <parameters>[ { 1 p_wm_5 } { 1 p_boiler_5 } { -1 p_sp_5 } ] <le/> 30</parameters>
+    </constraint>
+    <constraint arity="3" name="max_power_constraint_t_6" reference="global:weightedSum" scope="p_wm_6 p_boiler_6 p_sp_6">
+      <parameters>[ { 1 p_wm_6 } { 1 p_boiler_6 } { -1 p_sp_6 } ] <le/> 30</parameters>
+    </constraint>
+    <constraint arity="3" name="max_power_constraint_t_7" reference="global:weightedSum" scope="p_wm_7 p_boiler_7 p_sp_7">
+      <parameters>[ { 1 p_wm_7 } { 1 p_boiler_7 } { -1 p_sp_7 } ] <le/> 30</parameters>
+    </constraint>
+    <constraint arity="3" name="max_power_constraint_t_8" reference="global:weightedSum" scope="p_wm_8 p_boiler_8 p_sp_8">
+      <parameters>[ { 1 p_wm_8 } { 1 p_boiler_8 } { -1 p_sp_8 } ] <le/> 30</parameters>
+    </constraint>
+    <constraint arity="3" name="max_power_constraint_t_9" reference="global:weightedSum" scope="p_wm_9 p_boiler_9 p_sp_9">
+      <parameters>[ { 1 p_wm_9 } { 1 p_boiler_9 } { -1 p_sp_9 } ] <le/> 30</parameters>
+    </constraint>
+    <constraint arity="3" name="max_power_constraint_t_10" reference="global:weightedSum" scope="p_wm_10 p_boiler_10 p_sp_10">
+      <parameters>[ { 1 p_wm_10 } { 1 p_boiler_10 } { -1 p_sp_10 } ] <le/> 30</parameters>
+    </constraint>
+    <constraint arity="3" name="max_power_constraint_t_11" reference="global:weightedSum" scope="p_wm_11 p_boiler_11 p_sp_11">
+      <parameters>[ { 1 p_wm_11 } { 1 p_boiler_11 } { -1 p_sp_11 } ] <le/> 30</parameters>
+    </constraint>
+    <constraint arity="3" name="max_power_constraint_t_12" reference="global:weightedSum" scope="p_wm_12 p_boiler_12 p_sp_12">
+      <parameters>[ { 1 p_wm_12 } { 1 p_boiler_12 } { -1 p_sp_12 } ] <le/> 30</parameters>
+    </constraint>
+    <constraint arity="3" name="max_power_constraint_t_13" reference="global:weightedSum" scope="p_wm_13 p_boiler_13 p_sp_13">
+      <parameters>[ { 1 p_wm_13 } { 1 p_boiler_13 } { -1 p_sp_13 } ] <le/> 30</parameters>
+    </constraint>
+    <constraint arity="3" name="max_power_constraint_t_14" reference="global:weightedSum" scope="p_wm_14 p_boiler_14 p_sp_14">
+      <parameters>[ { 1 p_wm_14 } { 1 p_boiler_14 } { -1 p_sp_14 } ] <le/> 30</parameters>
+    </constraint>
+    <constraint arity="3" name="max_power_constraint_t_15" reference="global:weightedSum" scope="p_wm_15 p_boiler_15 p_sp_15">
+      <parameters>[ { 1 p_wm_15 } { 1 p_boiler_15 } { -1 p_sp_15 } ] <le/> 30</parameters>
+    </constraint>
+    <constraint arity="3" name="max_power_constraint_t_16" reference="global:weightedSum" scope="p_wm_16 p_boiler_16 p_sp_16">
+      <parameters>[ { 1 p_wm_16 } { 1 p_boiler_16 } { -1 p_sp_16 } ] <le/> 30</parameters>
+    </constraint>
+    <constraint arity="3" name="max_power_constraint_t_17" reference="global:weightedSum" scope="p_wm_17 p_boiler_17 p_sp_17">
+      <parameters>[ { 1 p_wm_17 } { 1 p_boiler_17 } { -1 p_sp_17 } ] <le/> 30</parameters>
+    </constraint>
+    <constraint arity="3" name="inject_power_is_no_more_than_consumed_power_t_0" reference="global:weightedSum" scope="p_wm_0 p_boiler_0 p_sp_0">
+      <parameters>[ { 1 p_wm_0 } { 1 p_boiler_0 } { -1 p_sp_0 } ] <ge/> 0</parameters>
+    </constraint>
+    <constraint arity="3" name="inject_power_is_no_more_than_consumed_power_t_1" reference="global:weightedSum" scope="p_wm_1 p_boiler_1 p_sp_1">
+      <parameters>[ { 1 p_wm_1 } { 1 p_boiler_1 } { -1 p_sp_1 } ] <ge/> 0</parameters>
+    </constraint>
+    <constraint arity="3" name="inject_power_is_no_more_than_consumed_power_t_2" reference="global:weightedSum" scope="p_wm_2 p_boiler_2 p_sp_2">
+      <parameters>[ { 1 p_wm_2 } { 1 p_boiler_2 } { -1 p_sp_2 } ] <ge/> 0</parameters>
+    </constraint>
+    <constraint arity="3" name="inject_power_is_no_more_than_consumed_power_t_3" reference="global:weightedSum" scope="p_wm_3 p_boiler_3 p_sp_3">
+      <parameters>[ { 1 p_wm_3 } { 1 p_boiler_3 } { -1 p_sp_3 } ] <ge/> 0</parameters>
+    </constraint>
+    <constraint arity="3" name="inject_power_is_no_more_than_consumed_power_t_4" reference="global:weightedSum" scope="p_wm_4 p_boiler_4 p_sp_4">
+      <parameters>[ { 1 p_wm_4 } { 1 p_boiler_4 } { -1 p_sp_4 } ] <ge/> 0</parameters>
+    </constraint>
+    <constraint arity="3" name="inject_power_is_no_more_than_consumed_power_t_5" reference="global:weightedSum" scope="p_wm_5 p_boiler_5 p_sp_5">
+      <parameters>[ { 1 p_wm_5 } { 1 p_boiler_5 } { -1 p_sp_5 } ] <ge/> 0</parameters>
+    </constraint>
+    <constraint arity="3" name="inject_power_is_no_more_than_consumed_power_t_6" reference="global:weightedSum" scope="p_wm_6 p_boiler_6 p_sp_6">
+      <parameters>[ { 1 p_wm_6 } { 1 p_boiler_6 } { -1 p_sp_6 } ] <ge/> 0</parameters>
+    </constraint>
+    <constraint arity="3" name="inject_power_is_no_more_than_consumed_power_t_7" reference="global:weightedSum" scope="p_wm_7 p_boiler_7 p_sp_7">
+      <parameters>[ { 1 p_wm_7 } { 1 p_boiler_7 } { -1 p_sp_7 } ] <ge/> 0</parameters>
+    </constraint>
+    <constraint arity="3" name="inject_power_is_no_more_than_consumed_power_t_8" reference="global:weightedSum" scope="p_wm_8 p_boiler_8 p_sp_8">
+      <parameters>[ { 1 p_wm_8 } { 1 p_boiler_8 } { -1 p_sp_8 } ] <ge/> 0</parameters>
+    </constraint>
+    <constraint arity="3" name="inject_power_is_no_more_than_consumed_power_t_9" reference="global:weightedSum" scope="p_wm_9 p_boiler_9 p_sp_9">
+      <parameters>[ { 1 p_wm_9 } { 1 p_boiler_9 } { -1 p_sp_9 } ] <ge/> 0</parameters>
+    </constraint>
+    <constraint arity="3" name="inject_power_is_no_more_than_consumed_power_t_10" reference="global:weightedSum" scope="p_wm_10 p_boiler_10 p_sp_10">
+      <parameters>[ { 1 p_wm_10 } { 1 p_boiler_10 } { -1 p_sp_10 } ] <ge/> 0</parameters>
+    </constraint>
+    <constraint arity="3" name="inject_power_is_no_more_than_consumed_power_t_11" reference="global:weightedSum" scope="p_wm_11 p_boiler_11 p_sp_11">
+      <parameters>[ { 1 p_wm_11 } { 1 p_boiler_11 } { -1 p_sp_11 } ] <ge/> 0</parameters>
+    </constraint>
+    <constraint arity="3" name="inject_power_is_no_more_than_consumed_power_t_12" reference="global:weightedSum" scope="p_wm_12 p_boiler_12 p_sp_12">
+      <parameters>[ { 1 p_wm_12 } { 1 p_boiler_12 } { -1 p_sp_12 } ] <ge/> 0</parameters>
+    </constraint>
+    <constraint arity="3" name="inject_power_is_no_more_than_consumed_power_t_13" reference="global:weightedSum" scope="p_wm_13 p_boiler_13 p_sp_13">
+      <parameters>[ { 1 p_wm_13 } { 1 p_boiler_13 } { -1 p_sp_13 } ] <ge/> 0</parameters>
+    </constraint>
+    <constraint arity="3" name="inject_power_is_no_more_than_consumed_power_t_14" reference="global:weightedSum" scope="p_wm_14 p_boiler_14 p_sp_14">
+      <parameters>[ { 1 p_wm_14 } { 1 p_boiler_14 } { -1 p_sp_14 } ] <ge/> 0</parameters>
+    </constraint>
+    <constraint arity="3" name="inject_power_is_no_more_than_consumed_power_t_15" reference="global:weightedSum" scope="p_wm_15 p_boiler_15 p_sp_15">
+      <parameters>[ { 1 p_wm_15 } { 1 p_boiler_15 } { -1 p_sp_15 } ] <ge/> 0</parameters>
+    </constraint>
+    <constraint arity="3" name="inject_power_is_no_more_than_consumed_power_t_16" reference="global:weightedSum" scope="p_wm_16 p_boiler_16 p_sp_16">
+      <parameters>[ { 1 p_wm_16 } { 1 p_boiler_16 } { -1 p_sp_16 } ] <ge/> 0</parameters>
+    </constraint>
+    <constraint arity="3" name="inject_power_is_no_more_than_consumed_power_t_17" reference="global:weightedSum" scope="p_wm_17 p_boiler_17 p_sp_17">
+      <parameters>[ { 1 p_wm_17 } { 1 p_boiler_17 } { -1 p_sp_17 } ] <ge/> 0</parameters>
+    </constraint>
+    <constraint arity="3" name="cost_function_t_0" reference="cost_function_t_0" scope="p_wm_0 p_boiler_0 p_sp_0">
+      <parameters>p_wm_0 p_boiler_0 p_sp_0</parameters>
+    </constraint>
+    <constraint arity="3" name="cost_function_t_1" reference="cost_function_t_1" scope="p_wm_1 p_boiler_1 p_sp_1">
+      <parameters>p_wm_1 p_boiler_1 p_sp_1</parameters>
+    </constraint>
+    <constraint arity="3" name="cost_function_t_2" reference="cost_function_t_2" scope="p_wm_2 p_boiler_2 p_sp_2">
+      <parameters>p_wm_2 p_boiler_2 p_sp_2</parameters>
+    </constraint>
+    <constraint arity="3" name="cost_function_t_3" reference="cost_function_t_3" scope="p_wm_3 p_boiler_3 p_sp_3">
+      <parameters>p_wm_3 p_boiler_3 p_sp_3</parameters>
+    </constraint>
+    <constraint arity="3" name="cost_function_t_4" reference="cost_function_t_4" scope="p_wm_4 p_boiler_4 p_sp_4">
+      <parameters>p_wm_4 p_boiler_4 p_sp_4</parameters>
+    </constraint>
+    <constraint arity="3" name="cost_function_t_5" reference="cost_function_t_5" scope="p_wm_5 p_boiler_5 p_sp_5">
+      <parameters>p_wm_5 p_boiler_5 p_sp_5</parameters>
+    </constraint>
+    <constraint arity="3" name="cost_function_t_6" reference="cost_function_t_6" scope="p_wm_6 p_boiler_6 p_sp_6">
+      <parameters>p_wm_6 p_boiler_6 p_sp_6</parameters>
+    </constraint>
+    <constraint arity="3" name="cost_function_t_7" reference="cost_function_t_7" scope="p_wm_7 p_boiler_7 p_sp_7">
+      <parameters>p_wm_7 p_boiler_7 p_sp_7</parameters>
+    </constraint>
+    <constraint arity="3" name="cost_function_t_8" reference="cost_function_t_8" scope="p_wm_8 p_boiler_8 p_sp_8">
+      <parameters>p_wm_8 p_boiler_8 p_sp_8</parameters>
+    </constraint>
+    <constraint arity="3" name="cost_function_t_9" reference="cost_function_t_9" scope="p_wm_9 p_boiler_9 p_sp_9">
+      <parameters>p_wm_9 p_boiler_9 p_sp_9</parameters>
+    </constraint>
+    <constraint arity="3" name="cost_function_t_10" reference="cost_function_t_10" scope="p_wm_10 p_boiler_10 p_sp_10">
+      <parameters>p_wm_10 p_boiler_10 p_sp_10</parameters>
+    </constraint>
+    <constraint arity="3" name="cost_function_t_11" reference="cost_function_t_11" scope="p_wm_11 p_boiler_11 p_sp_11">
+      <parameters>p_wm_11 p_boiler_11 p_sp_11</parameters>
+    </constraint>
+    <constraint arity="3" name="cost_function_t_12" reference="cost_function_t_12" scope="p_wm_12 p_boiler_12 p_sp_12">
+      <parameters>p_wm_12 p_boiler_12 p_sp_12</parameters>
+    </constraint>
+    <constraint arity="3" name="cost_function_t_13" reference="cost_function_t_13" scope="p_wm_13 p_boiler_13 p_sp_13">
+      <parameters>p_wm_13 p_boiler_13 p_sp_13</parameters>
+    </constraint>
+    <constraint arity="3" name="cost_function_t_14" reference="cost_function_t_14" scope="p_wm_14 p_boiler_14 p_sp_14">
+      <parameters>p_wm_14 p_boiler_14 p_sp_14</parameters>
+    </constraint>
+    <constraint arity="3" name="cost_function_t_15" reference="cost_function_t_15" scope="p_wm_15 p_boiler_15 p_sp_15">
+      <parameters>p_wm_15 p_boiler_15 p_sp_15</parameters>
+    </constraint>
+    <constraint arity="3" name="cost_function_t_16" reference="cost_function_t_16" scope="p_wm_16 p_boiler_16 p_sp_16">
+      <parameters>p_wm_16 p_boiler_16 p_sp_16</parameters>
+    </constraint>
+    <constraint arity="3" name="cost_function_t_17" reference="cost_function_t_17" scope="p_wm_17 p_boiler_17 p_sp_17">
+      <parameters>p_wm_17 p_boiler_17 p_sp_17</parameters>
+    </constraint>
+  </constraints>
+  <functions nbFunction="18">
+    <function name="cost_function_t_0" return="int">
+      <parameters>X0 X1 X2</parameters>
+      <expression>
+        <functional>mul(add( add( neg(X2), X1), X0), mul(1, 1) )</functional>
+      </expression>
+    </function>
+    <function name="cost_function_t_1" return="int">
+      <parameters>X0 X1 X2</parameters>
+      <expression>
+        <functional>mul(add( add( neg(X2), X1), X0), mul(1, 1) )</functional>
+      </expression>
+    </function>
+    <function name="cost_function_t_2" return="int">
+      <parameters>X0 X1 X2</parameters>
+      <expression>
+        <functional>mul(add( add( neg(X2), X1), X0), mul(1, 1) )</functional>
+      </expression>
+    </function>
+    <function name="cost_function_t_3" return="int">
+      <parameters>X0 X1 X2</parameters>
+      <expression>
+        <functional>mul(add( add( neg(X2), X1), X0), mul(1, 1) )</functional>
+      </expression>
+    </function>
+    <function name="cost_function_t_4" return="int">
+      <parameters>X0 X1 X2</parameters>
+      <expression>
+        <functional>mul(add( add( neg(X2), X1), X0), mul(1, 1) )</functional>
+      </expression>
+    </function>
+    <function name="cost_function_t_5" return="int">
+      <parameters>X0 X1 X2</parameters>
+      <expression>
+        <functional>mul(add( add( neg(X2), X1), X0), mul(1, 1) )</functional>
+      </expression>
+    </function>
+    <function name="cost_function_t_6" return="int">
+      <parameters>X0 X1 X2</parameters>
+      <expression>
+        <functional>mul(add( add( neg(X2), X1), X0), mul(1, 1) )</functional>
+      </expression>
+    </function>
+    <function name="cost_function_t_7" return="int">
+      <parameters>X0 X1 X2</parameters>
+      <expression>
+        <functional>mul(add( add( neg(X2), X1), X0), mul(1, 1) )</functional>
+      </expression>
+    </function>
+    <function name="cost_function_t_8" return="int">
+      <parameters>X0 X1 X2</parameters>
+      <expression>
+        <functional>mul(add( add( neg(X2), X1), X0), mul(1, 1) )</functional>
+      </expression>
+    </function>
+    <function name="cost_function_t_9" return="int">
+      <parameters>X0 X1 X2</parameters>
+      <expression>
+        <functional>mul(add( add( neg(X2), X1), X0), mul(1, 1) )</functional>
+      </expression>
+    </function>
+    <function name="cost_function_t_10" return="int">
+      <parameters>X0 X1 X2</parameters>
+      <expression>
+        <functional>mul(add( add( neg(X2), X1), X0), mul(1, 1) )</functional>
+      </expression>
+    </function>
+    <function name="cost_function_t_11" return="int">
+      <parameters>X0 X1 X2</parameters>
+      <expression>
+        <functional>mul(add( add( neg(X2), X1), X0), mul(1, 1) )</functional>
+      </expression>
+    </function>
+    <function name="cost_function_t_12" return="int">
+      <parameters>X0 X1 X2</parameters>
+      <expression>
+        <functional>mul(add( add( neg(X2), X1), X0), mul(1, 1) )</functional>
+      </expression>
+    </function>
+    <function name="cost_function_t_13" return="int">
+      <parameters>X0 X1 X2</parameters>
+      <expression>
+        <functional>mul(add( add( neg(X2), X1), X0), mul(1, 1) )</functional>
+      </expression>
+    </function>
+    <function name="cost_function_t_14" return="int">
+      <parameters>X0 X1 X2</parameters>
+      <expression>
+        <functional>mul(add( add( neg(X2), X1), X0), mul(1, 1) )</functional>
+      </expression>
+    </function>
+    <function name="cost_function_t_15" return="int">
+      <parameters>X0 X1 X2</parameters>
+      <expression>
+        <functional>mul(add( add( neg(X2), X1), X0), mul(1, 1) )</functional>
+      </expression>
+    </function>
+    <function name="cost_function_t_16" return="int">
+      <parameters>X0 X1 X2</parameters>
+      <expression>
+        <functional>mul(add( add( neg(X2), X1), X0), mul(1, 1) )</functional>
+      </expression>
+    </function>
+    <function name="cost_function_t_17" return="int">
+      <parameters>X0 X1 X2</parameters>
+      <expression>
+        <functional>mul(add( add( neg(X2), X1), X0), mul(1, 1) )</functional>
+      </expression>
+    </function>
+  </functions>
+</instance>

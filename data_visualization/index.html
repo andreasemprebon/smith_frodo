@@ -1,0 +1,59 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>SMITh Planner</title>
+
+	<script language="javascript" type="text/javascript" src="./jquery-3.1.1.min.js"></script>
+	<script language="javascript" type="text/javascript" src="./jquery.flot.min.js"></script>
+	<script language="javascript" type="text/javascript" src="./jquery.flot.stack.min.js"></script>
+
+	<script type="text/javascript">
+	var test;
+	$(function() {
+
+		$.ajax({
+			type 		: "GET",
+			url			: 'data.json',
+			dataType 	: 'json',
+    		success: function (data, status) {
+    			plot_data = []
+
+				for (var agent in data) {
+					if (data.hasOwnProperty(agent)) {
+						tmp_data = []
+						values = data[agent];
+						for (var i = 0; i < values.length; i++) {
+							tmp_data.push( [i, values[i] ] );
+							console.log(agent + ": i = " + values[i]);
+						}
+						plot_data.push( {label : agent, data: tmp_data} );
+					}
+				}
+
+    			$.plot("#placeholder", plot_data, {
+					series: {
+						stack: true,
+						lines: {
+							show: true,
+							fill: true,
+							steps: false
+						}
+					}
+				});
+    		},
+    		error: function(data) {
+    			alert("Errore");
+    		},
+    		async: false
+		});	
+
+	});
+
+	</script>
+</head>
+<body>
+
+	<div id="placeholder" style="width:800px; height:500px"></div>
+
+</body>
+</html>
